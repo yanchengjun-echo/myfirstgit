@@ -1,0 +1,33 @@
+# 依赖
+node_modules/
+.pnpm-store/
+bower_components/
+
+# 构建产物
+dist/
+build/
+out/
+.next/
+.cache/
+*.tsbuildinfo
+
+# 本地环境变量
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+npm-debug.log*
+
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy 内部数据（非交付物，不纳入版本库）
+.workbuddy/
+
+# 临时文件
+*.tmp
+~$*
